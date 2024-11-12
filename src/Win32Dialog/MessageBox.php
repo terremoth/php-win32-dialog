@@ -1,5 +1,7 @@
 <?php
 
+// @SupressWarnings(PHPMD.StaticAccess)
+
 namespace Win32Dialog;
 
 use FFI;
@@ -54,10 +56,10 @@ class MessageBox
             unsigned short wLanguageId);",
             "user32.dll");
 
-        $return_value = $ffi->MessageBoxExW($this->windowOwner, $this->content, $this->title, $this->properties,
+        $returnValue = $ffi->MessageBoxExW($this->windowOwner, $this->content, $this->title, $this->properties,
             $this->language);
 
-        return MessageBoxPressedButton::from($return_value);
+        return MessageBoxPressedButton::from($returnValue);
     }
 }
 
