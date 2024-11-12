@@ -23,7 +23,7 @@ $box->addDefaultButton(MessageBoxDefaultButton::BUTTON3);
 echo 'Chosen option: ';
 var_dump($box->render());
 
-$box = new MessageBox("This should have chinese text buttons", "Take a look");
+$box = new MessageBox("This should have japanese text buttons", "Take a look");
 $box->addButton(MessageBoxButton::OK);
 $box->addButton(MessageBoxButton::HELP);
 $box->addIcon(MessageBoxIcon::WARNING);
