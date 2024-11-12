@@ -16,3 +16,6 @@ Made by [Terremoth](https://github.com/terremoth/) with ⚡ & ❤
 [![License](https://img.shields.io/github/license/terremoth/php-win32dialog.svg?logo=gnu&color=41bb13)](https://github.com/terremoth/php-win32dialog/blob/main/LICENSE)
 
 See [demos/demo.php](demos/demo.php) for examples.
+
+![image](https://github.com/user-attachments/assets/79af50af-be2c-4de8-93a0-dd1980f1fa89)
+![image](https://github.com/user-attachments/assets/bd5a964c-1b1c-41a0-a096-6fb22c022de7)
