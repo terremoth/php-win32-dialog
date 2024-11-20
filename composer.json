@@ -1,5 +1,5 @@
 {
-    "name": "terremoth/php-win32dialog",
+    "name": "terremoth/php-win32-dialog",
     "description": "Native Win32 GUI Message Boxes for PHP",
     "type": "library",
     "require": {
